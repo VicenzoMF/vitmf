@@ -211,8 +211,8 @@ nav a {
     margin: 50px 0 50px 0;
     float: left;
     width: 5rem;
-    left: 18%;
-    position: absolute;
+    left: 4%;
+    position: relative;
 }
 
 .nameDownload {
@@ -221,8 +221,8 @@ nav a {
     font-weight: 900;
     width: 25%;
     text-align: left;
-    left: 22%;
-    position: absolute;
+    left: 4.5%;
+    position: relative;
 }
 
 .btnDownload {
