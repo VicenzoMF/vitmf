@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    font-weight: 300;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #276678;
+    border-width: 5px;
+    width: 5%;
+}
+
+h1{
+    color: #1687a7;
+    font-weight: bold;
+}
+
+h2 {
+    color: #1687a7;
+}
+
+h3 {
+    color: #1687a7;
+}
+
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+#profileImg{
+    border-radius: 100%;
+    height: 20%;
+    width: 20%;
+}
+
+.top-container{
+    text-align: center;
+    padding-top: 100px;
+    background-color: #f6f5f5;
+}
+
+#topCloud{
+    position: absolute;
+    right: 23%;
+    top: 150px;
+}
+
+.skill-row{
+    text-align: left;
+    margin-bottom: 150px;
+}
+
+#skill2 h3{
+    margin-left: 15px;
+}
+
+#skill2 p{
+    margin-left: 15px;
+}
+
+.skill-row h3{
+    margin-left: 200px;
+}
+
+.skill-row p{
+    margin-left: 200px;
+}
+
+.img-basketball{
+    width: 20%;
+    float: left;
+}
+
+.img-programming{
+    width: 20%;
+    float: right;
+}
+
+#bottomCloud{
+    position: absolute;
+    left: 21%;
+}
+
+.middle-container{
+    width: 50%;
+    margin-left: 25.2%;
+}
+
+.bottom-container{
+    height: 150px;
+    width: 100%;
+    background-color: #276678;
+    color: white;
+    position: relative;
+    
+}
+
+div a {
+    text-decoration: none;
+    color: #143741;
+    transition: 0.3s;
+}
+
+div a:hover {
+    color: #30859c;
+}
+
+.footer-link{
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
+
+#copy-right {
+    margin-top: 75px;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.5rem 1rem;
+    background-color: #ffffff;
+    border: solid 3px #30859c;
+    border-radius: 0.2rem;
+    top: 35px;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: relative;
+    color: #30859c;
+    transition: 0.1s;
+    box-shadow: 0 10px 20px -6px rgb(0 0 0 / 15%);
+}
+
+.btn:hover{
+    background-color: #30859c;
+    border: solid 3px #30859c;
+    color: #ffffff;
+}
+
+.contact-me{
+    margin-bottom: 100px;
+    height: 150px;
+}
+
+nav a {
+    color: #143741;
+    text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    top: 5%;
+    left: 15%;
+}
+
+.navbarDownloads {
+    position: fixed;
+    top: 5%;
+    left: 15%;
+    height: 100px;
+}
+
+.back { 
+    color: #143741;
+    font-size: 1.8rem;
+    top: 0.2rem;
+    position: relative;
+}
+
+.navDownload {
+    margin-left: 5px;
+    color: #143741;
+}
+
+.downloadBody {
+    background-color: #f6f5f5;
+}
+
+.downloadContainer {
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    width: 70%;
+    height: 500px;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px -6px rgb(0 0 0 / 15%);
+}
+
+.downloadItem {
+    height: 180px;
+}
+
+.borderDownload {
+    width: 80%;
+    height: 1px;
+    margin: 0px auto;
+    bottom: 0;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.imgDownload {
+    margin: 50px 0 50px 0;
+    float: left;
+    width: 5rem;
+    left: 18%;
+    position: absolute;
+}
+
+.nameDownload {
+    float: left;
+    margin: 78px 0 78px 5px;
+    font-weight: 900;
+    width: 25%;
+    text-align: left;
+    left: 22%;
+    position: absolute;
+}
+
+.btnDownload {
+    position: absolute;
+    content: "Download";
+    padding: 0.2rem 0.1rem 0.1rem;
+    float: left;
+    right: 18.5%;
+    margin-top: 70px;
+    background-color: #30859c;
+    width: 9rem;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px -6px rgb(0 0 0 / 15%);
+}
+
+
+
+.btnDownload:hover{
+    margin-top: 70px;
+    color: white;
+}
